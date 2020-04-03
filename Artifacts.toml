@@ -1,0 +1,113 @@
+[[OpenCL_Headers]]
+arch = "i686"
+git-tree-sha1 = "00f8dc87010bdda025e35e68dd81f8434c1cc9cc"
+libc = "musl"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "6bf05bc9ecb98c9df1dfc98f3b2d046a9beb275348a0ddc87995a75bdaf08f30"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.i686-linux-musl.tar.gz"
+[[OpenCL_Headers]]
+arch = "aarch64"
+git-tree-sha1 = "65a033ee0957f82432c268a0b632835f027a144c"
+libc = "musl"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "90f329c8b4c6d73b448b1626ad71d137d3b8da6d8fe8054f88961232a11209dd"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.aarch64-linux-musl.tar.gz"
+[[OpenCL_Headers]]
+arch = "i686"
+git-tree-sha1 = "ece270ba1f8ac48c7cf42706a62ae2e5663c2f62"
+os = "windows"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "0992b92f87a034eb41df692f77dcef379a64ac11b5cfe3ce6fa05a4c534051aa"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.i686-w64-mingw32.tar.gz"
+[[OpenCL_Headers]]
+arch = "x86_64"
+git-tree-sha1 = "e5c0614dea42292bc0755ab549be7a119a327f22"
+os = "windows"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "a2efa98e535d246401f4edb5fbad6da4213ae9ee03ccf634ec9786fcbe9a07ba"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.x86_64-w64-mingw32.tar.gz"
+[[OpenCL_Headers]]
+arch = "armv7l"
+git-tree-sha1 = "200a50652747aafdb701eff9f766d0f42754ed64"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "2283574924eca5dc4977ffc37e227a26fb0cfcf26c0bfc70005ab0837bd6400f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.armv7l-linux-gnueabihf.tar.gz"
+[[OpenCL_Headers]]
+arch = "armv7l"
+git-tree-sha1 = "e4f7dcef63e6742ea3c8197a00324102b2762714"
+libc = "musl"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "b537848d738416f29ab246589a497573934fb532194b4d67624aac271e84601f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.armv7l-linux-musleabihf.tar.gz"
+[[OpenCL_Headers]]
+arch = "i686"
+git-tree-sha1 = "18eadc4d01fecbfcb0702d543160f23375ba90d2"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "7e120d4c44917c16c9b834129c638db2b1c8d366bed1abeef1aa2813aa91eb41"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.i686-linux-gnu.tar.gz"
+[[OpenCL_Headers]]
+arch = "x86_64"
+git-tree-sha1 = "c044b27c17a84c68652b343d2c400cd4550152b3"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "cc4b75125935c00c209fda6540eeef95cd09d47e322007b10776d7cc897ebbf4"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.x86_64-linux-gnu.tar.gz"
+[[OpenCL_Headers]]
+arch = "powerpc64le"
+git-tree-sha1 = "c4d7e39aa0c930dfac09ac6870f517ecd2f5728c"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "efe1dd5b0a42bb6bf2be99049fd069ab560111d736ce390bd076e52f97a9f4f1"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.powerpc64le-linux-gnu.tar.gz"
+[[OpenCL_Headers]]
+arch = "x86_64"
+git-tree-sha1 = "b9e070ed2dc929ffe6fa9c8b7b8904326d1be8f0"
+os = "macos"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "bb48f565bbf2ffae787e60e3f0f34299940e0e156f971f6e108d71589c75a5e2"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.x86_64-apple-darwin14.tar.gz"
+[[OpenCL_Headers]]
+arch = "aarch64"
+git-tree-sha1 = "4599e86fd59a918899cdc811170289bda68f0ddc"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "b9fcb15028df968d734efb7d5bdc60abbad5c71ff278f2bfc76336061f536a37"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.aarch64-linux-gnu.tar.gz"
+[[OpenCL_Headers]]
+arch = "x86_64"
+git-tree-sha1 = "3e2564c83467a79a90af99ca1377ae843c476117"
+os = "freebsd"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "2c071a691b17d33b07e5d4e7ce8c6dbe9c96691173e733e9edacee85de13cbd7"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.x86_64-unknown-freebsd11.1.tar.gz"
+[[OpenCL_Headers]]
+arch = "x86_64"
+git-tree-sha1 = "11b67844dc62145cd5a3cf47b4dc7e8fe53c5786"
+libc = "musl"
+os = "linux"
+
+    [[OpenCL_Headers.download]]
+    sha256 = "ccd4e0739da1dac537a6d5bf0dcacac14d3adfaf22ce21211eef8aefdbaf45bf"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2020.3.13+0/OpenCL_Headers.v2020.3.13.x86_64-linux-musl.tar.gz"
