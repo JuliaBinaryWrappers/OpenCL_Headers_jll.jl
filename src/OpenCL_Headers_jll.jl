@@ -26,28 +26,6 @@ import Base: UUID
 const PATH_list = String[]
 const LIBPATH_list = String[]
 
-# Load Artifacts.toml file
-artifacts_toml = joinpath(@__DIR__, "..", "Artifacts.toml")
-
-# Extract all platforms
-artifacts = Pkg.Artifacts.load_artifacts_toml(artifacts_toml; pkg_uuid=UUID("a7aa756b-2b7f-562a-9e9d-e94076c5c8ee"))
-platforms = [Pkg.Artifacts.unpack_platform(e, "OpenCL_Headers", artifacts_toml) for e in artifacts["OpenCL_Headers"]]
-
-# Filter platforms based on what wrappers we've generated on-disk
-filter!(p -> isfile(joinpath(@__DIR__, "wrappers", replace(triplet(p), "arm-" => "armv7l-") * ".jl")), platforms)
-
-# From the available options, choose the best platform
-best_platform = select_platform(Dict(p => triplet(p) for p in platforms))
-
-# Silently fail if there's no binaries for this platform
-if best_platform === nothing
-    @debug("Unable to load OpenCL_Headers; unsupported platform $(triplet(platform_key_abi()))")
-else
-    # Load the appropriate wrapper.  Note that on older Julia versions, we still
-    # say "arm-linux-gnueabihf" instead of the more correct "armv7l-linux-gnueabihf",
-    # so we manually correct for that here:
-    best_platform = replace(best_platform, "arm-" => "armv7l-")
-    include(joinpath(@__DIR__, "wrappers", "$(best_platform).jl"))
-end
+include(joinpath(@__DIR__, "wrappers", "any.jl"))
 
 end  # module OpenCL_Headers_jll
