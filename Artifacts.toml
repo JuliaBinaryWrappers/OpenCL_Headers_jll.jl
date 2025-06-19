@@ -1,6 +1,6 @@
 [OpenCL_Headers]
-git-tree-sha1 = "f0020bb9d611fcaa0d707dc77f621d29edce6c7b"
+git-tree-sha1 = "a8ddde7d1ad9edf9d34fc71271fbb88bfad23b79"
 
     [[OpenCL_Headers.download]]
-    sha256 = "7e67365b465e3db1294964fd49ab7cbc5e11461a5816db034bd4f4cd7b674ce8"
-    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2025.5.7+0/OpenCL_Headers.v2025.5.7.any.tar.gz"
+    sha256 = "22bb910a9024a4a11ebc95b5c70ac4efc261a4df66093bc1773f3ead803e6a9c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2025.6.13+0/OpenCL_Headers.v2025.6.13.any.tar.gz"
