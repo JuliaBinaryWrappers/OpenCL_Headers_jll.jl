@@ -1,16 +1,16 @@
+version = "2026.5.29+0"
 name = "OpenCL_Headers_jll"
 uuid = "a7aa756b-2b7f-562a-9e9d-e94076c5c8ee"
-version = "2025.6.13+0"
 
 [deps]
-JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [compat]
-JLLWrappers = "1.7.0"
-julia = "1.0"
-Pkg = "< 0.0.1, 1"
 Libdl = "< 0.0.1, 1"
+julia = "1.0"
+JLLWrappers = "1.7.0"
 Artifacts = "< 0.0.1, 1"
+Pkg = "< 0.0.1, 1"
